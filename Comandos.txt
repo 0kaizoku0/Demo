@@ -1,0 +1,7 @@
+ssh-keygen -o
+clip < ~/.ssh/id_rsa.pub
+
+git config --global user.name "TuUsuario"
+git config --global user.email "TuCorreo@personal.com"
+git config --global -l
+
